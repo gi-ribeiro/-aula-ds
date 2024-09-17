@@ -1,0 +1,15 @@
+valor_casa = int(input("digite o valor da casa: "))
+salario = float(input("Digite o valor do seu salario: "))
+anos = int(input("Em quantos anos deseja pagar o emprestimo?"))
+
+meses = anos* 12
+prestacao_mensal = valor_casa / meses 
+
+limite_prestacao = salario * 0.30
+
+print(f" valor da prestacao: R$ {prestacao_mensal:.2f}")
+
+if prestacao_mensal <= limite_prestacao: 
+    print("emporestimo aprovado!")
+else: 
+    print("emprestimo negado!")
