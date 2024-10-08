@@ -26,4 +26,14 @@ def exibir_estoque(estoque):
 
 # Atualizar o estoque 
 atualizar_estoque(estoque, 0, 3) # Vender 3 unidades do produto 1
-atualizar_estoque(estoque, 3, 2) # Vender 2 unidades do produto 4             
+atualizar_estoque(estoque, 3, 2) # Vender 2 unidades do produto 4  
+
+# Adicionar unidades ao estoque 
+adicionar_estoque(estoque, 4, 10) # Adicionar 10 unidades ao produto 5
+
+# Exibir o estoque atualizado 
+exibir_estoque(estoque)
+
+
+
+# Inicializiando a matriz de assentos (5 fileiras de 8 assentos)
